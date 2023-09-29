@@ -191,7 +191,7 @@
 //     console.log("hello world");
 //     return 1
 // }
- 
+
 // console.log(greet())
 
 
@@ -345,7 +345,7 @@
 //       }
 //     }, 1000);
 //   }
-  
+
 //   // Calling the function with a callback
 //   simulateNetworkRequest(null, function(error, result) {
 //     if (error) {
@@ -391,20 +391,20 @@
 
 // function asyncExample() {
 //     console.log("Start");
-    
+
 //     setTimeout(function() {
 //       console.log("Step 1");
 //     }, 2000);
-    
+
 //     console.log("Step 2");
-    
+
 //     setTimeout(function() {
 //       console.log("Step 3");
 //     }, 1000);
-    
+
 //     console.log("End");
 //   }
-  
+
 //   asyncExample();
 //   console.log(c);
 //   var a=5;
@@ -503,3 +503,38 @@
 
 // console.log(format(new Date(), 'yyyy-MM-dd\tHH:mm:ss'));
 // console.log(uuid());
+
+
+// let arr = [
+//     {
+//         userId: 1,
+//         mngrId: 0
+//     },
+//     {
+//         userId: 2,
+//         mngrId: 1
+//     },
+//     {
+//         userId: 3,
+//         mngrId: 1
+//     },
+//     {
+//         userId: 4,
+//         mngrId: 2
+//     }
+// ]
+// let temp = {}
+// arr.forEach((user) => {
+//     if (temp[user.mngrId]) {
+
+//     }
+//     else {
+//         let present = arr.find((u) => u.userId == user.mngrId)
+//         if (present) {
+//             temp[present.mngrId] = true;
+//         }
+//         else {
+//             console.log("Not present")
+//         }
+//     }
+// })

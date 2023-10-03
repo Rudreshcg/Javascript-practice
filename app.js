@@ -538,3 +538,18 @@
 //         }
 //     }
 // })
+
+// s = [6,8,9,5,6,5]
+// a = s.fill(0, 2,4)
+// console.log(a)
+
+// function ab(){
+//     let x = 1
+//     if(true){
+//         let x = 2
+//         console.log(x)
+//     }
+//     console.log(x)
+// }
+// ab()
+

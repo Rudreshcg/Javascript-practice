@@ -553,3 +553,17 @@
 // }
 // ab()
 
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const f = fruits.entries();
+// console.log(f)
+// for (let i of f){
+//     console.log(i)
+// }
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.copyWithin(2, 0)
+// console.log(fruits)
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango", "Kiwi"];
+// fruits.copyWithin(2, 0, 3);
+// console.log(fruits)
